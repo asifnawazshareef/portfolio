@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio-Asif-Nawaz-Sharif</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+
+  <!-- Bootstrap 5 CDN Links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- Custom File's Link -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive-style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+  <!-- Navbar section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" class="img-fluid" alt="logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="main-btn" href="#contact">Hire Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar section exit -->
+
+  <!-- Banner section -->
+  <section id="home" class="banner_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h6>WELCOME TO MY PORTFOLIO</h6>
+          <h1>
+            Hi, <br />
+            I’m "Asif Nawaz Sharif"<br /><span>Front-End Developer.</span><br />based in Islamabad, Pakistan.
+          </h1>
+          <div class="mt-4">
+            <a class="main-btn" href="assets/Resume/Asif_Nawaz_CV.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about-wrapper">
+    <div class="container">
+      <div class="row justify-contact-between align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <!-- <img src="./assets/images/about.jpg" class="img-fluid rounded-3" alt="about-us"> -->
+          <img src="./assets/images/ProfileAsif.jpg" class="img-fluid rounded-3" alt="about-us" />
+        </div>
+        <div class="col-lg-7 text-center text-lg-start ps-lg-5">
+          <div class="my-3 my-lg-0">
+            <span class="subtitle">My About Details</span>
+            <h2>About Me</h2>
+            <p>
+              Hello, I'm Asif Nawaz Sharif, a front-end developer who is
+              passionate about creating engaging web experiences and has a
+              strong dedication to doing so.
+            </p>
+          </div>
+          <div class="pt-4">
+            <ul class="nav nav-pills justify-content-lg-between justify-content-center mb-4" id="pills-tab"
+              role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-main-skill-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-main-skill" type="button" role="tab" aria-controls="pills-main-skill"
+                  aria-selected="true">
+                  Main Skills
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill"
+                  type="button" role="tab" aria-controls="pills-skill" aria-selected="true">
+                  Skills
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-experiance" type="button" role="tab" aria-controls="pills-experiance"
+                  aria-selected="false">
+                  Experiance
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education"
+                  aria-selected="false">
+                  Education
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-award-tab" data-bs-toggle="pill" data-bs-target="#pills-award"
+                  type="button" role="tab" aria-controls="pills-award" aria-selected="false">
+                  Certificates
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-main-skill" role="tabpanel"
+                aria-labelledby="pills-main-skill-tab">
+                <div class="single-progress">
+                  <h6>Web Development</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span class="lable"> 70%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>Front-end Development</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span class="lable"> 85%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>WordPress</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span class="lable"> 80%</span>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                <div class="skills">
+                  <ul class="skills-list text-start ps-0">
+                    <li>React JS</li>
+                    <li>HTML / HTML5</li>
+                    <li>CSS / CSS3</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>AJAX</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                    <li>Swiper JS</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>WiX</li>
+                    <li>WordPress</li>
+                    <li>Page Builders Elementor and Divi</li>
+                    <li>Gutenberg Block Building</li>
+                    <li>Custom Theme Development</li>
+                    <li>Advanced Custom Fields(ACF) Pro</li>
+                    <li>SEO knowledge</li>
+                    <li>Git / GitHub</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-experiance" role="tabpanel" aria-labelledby="pills-experiance-tab">
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#">
+                      Front-End Developer<span>
+                        - Tecrux Global , Islamabad
+                      </span></a>
+                    Sep 2023 - Current
+                  </li>
+                  <li>
+                    <a href="#">Web Developer-Intern<span>
+                        - Virtoxed Technologies , Rawalpindi</span></a>
+                    June 2023 - Aug 2023
+                  </li>
+                  <li>
+                    <a href="#">Wordpress Developer |Business Incubatee
+                      <span>
+                        - Regional Plan9 , Punjab IT Board , PMAS ,
+                        Rawalpindi</span></a>
+                    Apr 2022 - Oct 2022
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#">BS in Computer Science(BSCS)<span>
+                        - PMAS Arid Agriculture University, Rawalpindi</span></a>
+                    Sep 2017 - June 2022
+                  </li>
+                  <li>
+                    <a href="#">Intermediate(FSc) in Pre-Engineering<span>
+                        - Rise Boys Science H/S/S , Muzaffargarh</span></a>
+                    Jul 2015 - Jul 2017
+                  </li>
+                  <li>
+                    <a href="#">Matriculation in Science<span>
+                        - The Global Boys Higher Secondary School,
+                        Muzaffargarh</span></a>
+                    July 2013 - July 2015
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="pills-award" role="tabpanel" aria-labelledby="pills-award-tab">
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="">Wordpress
+                      <span>- National Training Bureau,
+                        Islamabad
+                      </span></a>
+                    Feb 2021 - May 2021
+                  </li>
+                  <li>
+                    <a href="#">Web & Graphic Designing
+                      <span>- National Training Bureau,Islamabad </span></a>
+                    July 2018 - Sep 2018
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">What I can do for you</span>
+          <h2>My Awesome Service</h2>
+          <p>Here are some of my expertise.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./assets/images/service/web-development.png" alt="service" class="img-fluid mb-4" />
+              <h3>Website Development</h3>
+              <p>
+                My portfolio features a variety of beautifully designed
+                websites that transform ideas into interactive online
+                experiences, delivering excellent results for global
+                businesses.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./assets/images/service/wordpress-icon.png" alt="service" class="img-fluid mb-4" />
+              <h3>WordPress Development</h3>
+              <p>
+                Dive into my portfolio of beautifully designed, highly
+                functional WordPress websites, and witness how I empower
+                businesses online with custom solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./assets/images/service/speed-optimization.png" alt="service" class="img-fluid mb-4" />
+              <h3>Website Optimization</h3>
+              <p>
+                I excel in optimizing websites for speed, cross-browser
+                compatibility, and mobile responsiveness, driving user
+                satisfaction, conversions, and SEO results.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./assets/images/service/responsive-design.png" alt="service" class="img-fluid mb-4" />
+              <h3>Responsive Design</h3>
+              <p>
+                Having a responsive layout means that my website fluidly
+                resizes for optimal viewing regardless of the screen size or
+                device (e.g., iPhone, iPad).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./assets/images/service/web-design.png" alt="service" class="img-fluid mb-4" />
+              <h3>Website Design</h3>
+              <p>
+                My approach to website design is to create a website that
+                strengthens your brand while ensuring ease of use and
+                simplicity for your audience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./assets/images/service/web-maintenance.png" alt="service" class="img-fluid mb-4" />
+              <h3>Website Maintenance</h3>
+              <p>
+                I ensure your website runs optimally with expert maintenance
+                solutions. Trust Rashid Shahbaz Sharif for smooth website
+                operation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">My Complete Projects</span>
+          <h2>My Latest Projects</h2>
+          <p>
+            Highly experienced in designing & developing responsive websites.
+          </p>
+        </div>
+      </div>
+      <div class="row about-wrapper">
+        <div class="pt-4">
+          <ul class="nav nav-pills justify-content-lg-between justify-content-evenly mb-4 portfolio-pills"
+            id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-wordpress-site-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-wordpress-site" type="button" role="tab" aria-controls="pills-wordpress-site"
+                aria-selected="false">
+                WordPress Websites
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-landing-page-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-landing-page" type="button" role="tab" aria-controls="pills-landing-page"
+                aria-selected="true">
+                Landing-Page
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-websites-tab" data-bs-toggle="pill" data-bs-target="#pills-websites"
+                type="button" role="tab" aria-controls="pills-websites" aria-selected="true">
+                Websites
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-wordpress-site" role="tabpanel"
+              aria-labelledby="pills-wordpress-site-tab">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/cogent-bank_Site.png);
+                        "></span>
+                  </div>
+                  <a href="https://dev.cogentprivatewealth.1appleton.com/" target="_blank" class="live-site-btn">Cogent
+                    Bank</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/Nar-Cannabis-site.png);
+                        "></span>
+                  </div>
+                  <a href="https://www.narcannabis.com/" target="_blank" class="live-site-btn">NAR Cannabis</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/Home-Opanga-Networks.png);
+                        "></span>
+                  </div>
+                  <a href="https://opanga.com/" target="_blank" class="live-site-btn">Opanga Networks</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/GoTu.png);
+                        "></span>
+                  </div>
+                  <a href="https://stg-tempmee-staging.kinsta.cloud/" target="_blank" class="live-site-btn">GoTu
+                    Tempmee</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-landing-page" role="tabpanel" aria-labelledby="pills-landing-page-tab">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/propellerhead-aviation_landing-page.png);
+                        "></span>
+                  </div>
+                  <a href="https://propellerheadaviation.com/" target="_blank" class="live-site-btn">Propellerhead
+                    Aviation</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/Foodies-Landing-page.png);
+                        "></span>
+                  </div>
+                  <a href="https://rashid-shahbaz-sharif.github.io/foodies/" target="_blank"
+                    class="live-site-btn">Foodies</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/Burger-House-Landing-page.png);
+                        "></span>
+                  </div>
+                  <a href="https://rashid-shahbaz-sharif.github.io/burger-house/" target="_blank"
+                    class="live-site-btn">Burger House</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/Fruits_think_fresh-Landing-page.png);
+                        "></span>
+                  </div>
+                  <a href="https://rashid-shahbaz-sharif.github.io/fruits-think-fresh/" target="_blank"
+                    class="live-site-btn">Fruits Think Fresh</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/Hotel-Landing-page.png);
+                        "></span>
+                  </div>
+                  <a href="https://rashid-shahbaz-sharif.github.io/hotel/" target="_blank"
+                    class="live-site-btn">Hotel</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-websites" role="tabpanel" aria-labelledby="pills-websites-tab">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/TK-international-travel-site.png);
+                        "></span>
+                  </div>
+                  <a href="https://rashid-shahbaz-sharif.github.io/TK_International_Travels_and_Tours/" target="_blank"
+                    class="live-site-btn">TK Travel</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5 card-col">
+                  <div class="card p-0">
+                    <span style="
+                          background-image: url(./assets/images/portfolio/Travels_Islamabad.png);
+                        "></span>
+                  </div>
+                  <a href="https://rashid-shahbaz-sharif.github.io/travel-islamabad/" target="_blank"
+                    class="live-site-btn">Travels Islamabad</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact-wrapper">
+    <div class="container">
+      <div class="row justify-contact-between align-items-center">
+        <div class="col-lg-8 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+          <span class="subtitle">Let's Say Hi</span>
+          <h2>Hire Me.</h2>
+          <div class="row call_details mb-4">
+            <label class="col-sm-3">Call us directly:</label>
+            <div class="col-sm-9 mb-3 mb-lg-2">
+              <a href="tel:+92 304 0974004">+92 304 0974004</a>
+            </div>
+            <label class="col-sm-3">Contact Email:</label>
+            <div class="col-sm-9 mb-3 mb-lg-2">
+              <a href="mailto:rashidshahbaz444@gmail.com">asifnawazsharif222@gmail.com</a>
+            </div>
+            <label class="col-sm-3">Address:</label>
+            <div class="col-sm-9 mb-3 mb-lg-2">
+              <a href="https://maps.app.goo.gl/ZUCtXYyHcVhEjqTB8">G-9/1, Sector G-9, Islamabad, Pakistan</a>
+            </div>
+          </div>
+          <form>
+            <div class="mb-4">
+              <input type="text" class="form-control" placeholder="Your Name" autocomplete="off" />
+            </div>
+            <div class="mb-4">
+              <input type="number" class="form-control" placeholder="Your Number" autocomplete="off" />
+            </div>
+            <div class="mb-4">
+              <input type="email" class="form-control" placeholder="Your Email" autocomplete="off" />
+            </div>
+            <div class="mb-4">
+              <textarea name="" id="message" placeholder="Your Message" autocomplete="off" cols="40" rows="4"
+                class="form-control"></textarea>
+            </div>
+            <button type="submit" class="main-btn">Send Message</button>
+          </form>
+        </div>
+        <div class="col-lg-4 order-1 mb-4 order-lg-1 mb-lg-0">
+          <img src="./assets/images/asif_photo.jpg" class="img-fluid rounded-3" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="footer-wrapper mt-3 mt-md-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6 text-center text-md-start">
+          <div class="footer-logo mb-3 mb-md-0">
+            <img src="./assets/images/logo.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <ul
+            class="list-unstyled d-flex justify-content-center social-icon justify-content-md-end justify-content-lg-center mb-3 mb-md-0">
+            <li>
+              <a href="https://www.linkedin.com/in/asif-nawaz-sharif/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/AsifNawazSharif222" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=923040974004"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+            <p class="mb-0 text-center">
+              Copyright © 2023 . All Rights Reserved. <br />
+              Designed by<a href="#"> Asif Nawaz Sharif</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+  <!-- Custom Js Link -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
