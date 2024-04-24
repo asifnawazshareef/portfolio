@@ -1,0 +1,93 @@
+@media (max-width: 1280px) {
+  .portfolio-wrapper .portfolio-pills {
+    width: auto;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 30px 0;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .header-scrolled {
+    height: auto;
+  }
+  .header-wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color: var(--bg-dark-blue);
+    padding-bottom: 15px;
+  }
+  .header-wrapper .nav-item .nav-link {
+    margin-top: 15px;
+  }
+  .banner-wrapper {
+    padding: 200px 0;
+  }
+  .portfolio-wrapper .card {
+    min-height: 400px;
+  }
+  .about-wrapper .skills .skills-list {
+    column-count: 2;
+    column-gap: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .banner_wrapper {
+    padding: 200px 0px 0px 0px;
+    min-height: 600px;
+  }
+  .about-wrapper ul .nav-pills {
+    width: 100%;
+    margin: auto;
+    border: 0;
+  }
+  .about-wrapper ul .nav-link {
+    font-size: 13px;
+  }
+  .portfolio-wrapper .card {
+    min-height: 500px;
+  }
+  .portfolio-wrapper .portfolio-pills {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .portfolio-wrapper .portfolio-pills {
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 20px;
+    border-radius: 10px !important;
+  }
+  .portfolio-wrapper .portfolio-pills li {
+    text-align: center;
+  }
+  .about-wrapper .skills{
+    justify-content: center;
+  }
+  .about-wrapper .skills .skills-list {
+    column-count: 1;
+    column-gap: 0px;
+    text-align: center !important;
+}
+}
