@@ -12,7 +12,7 @@ const ContactUs = () => {
               <div class="row call_details mb-4">
                 <label class="col-sm-3">Call us directly:</label>
                 <div class="col-sm-9 mb-3 mb-lg-2">
-                  <a href="tel:+92 336 1114094">+92 336 1114094</a>
+                  <a href="tel:+92 304 0974004">+92 304 0974004</a>
                 </div>
                 <label class="col-sm-3">Contact Email:</label>
                 <div class="col-sm-9 mb-3 mb-lg-2">

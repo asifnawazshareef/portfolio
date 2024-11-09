@@ -10,9 +10,9 @@ const AboutMe = () => {
             <span class="subtitle">My About Details</span>
             <h2>About Me</h2>
             <p className="about-description">
-              Hello, I'm Asif Nawaz Sharif, a front-end developer who is
-              passionate about creating engaging web experiences and has a
-              strong dedication to doing so.
+              Hello, I'm Asif Nawaz, a front-end developer who is passionate
+              about creating engaging web experiences and has a strong
+              dedication to doing so.
             </p>
           </div>
         </div>

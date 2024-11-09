@@ -38,7 +38,7 @@ const Footer = () => {
               <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
                 <p class="mb-0 text-center">
                   Copyright © 2024 . All Rights Reserved. <br />
-                  Designed by<a href="#"> Asif Nawaz Sharif</a>
+                  Designed by<a href="#"> Asif Nawaz</a>
                 </p>
               </div>
             </div>
