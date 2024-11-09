@@ -1,5 +1,6 @@
 import logo from "../assets/images/logo.webp";
 import Resume from "../assets/Resume/Asif_Nawaz_CV.pdf";
+import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>

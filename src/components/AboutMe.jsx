@@ -193,6 +193,13 @@ const AboutMe = () => {
                     <ul className="text-start ps-0">
                       <li>
                         <a href="#">
+                          React JS Internship
+                          <span>- Smart Coders (SMC) , Islamabad</span>
+                        </a>
+                        Sep 2024 - Present
+                      </li>
+                      <li>
+                        <a href="#">
                           Wordpress Frontend & Backend Developer
                           <span>- Cybermind Solutions , Rawalpindi</span>
                         </a>
@@ -203,7 +210,7 @@ const AboutMe = () => {
                           Front-End Developer
                           <span>- Tecrux Global , Islamabad</span>
                         </a>
-                        Oct 2023 - May 2024
+                        Sep 2023 - May 2024
                       </li>
 
                       <li>

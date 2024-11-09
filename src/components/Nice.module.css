@@ -3,7 +3,7 @@ body {
 }
 
 .app {
-  background: #1d0ea3;
+  background: #2a3343;
   color: #f8fafc;
   /* min-width: 70vw; */
   /* min-height: 70vh; */
@@ -32,11 +32,11 @@ body {
   }
 }
 .header p {
-  color: #144c9b;
+  color: #2a3343;
   margin-bottom: 0.5rem;
 }
 .header a {
-  color: #0e60d3;
+  color: #2a3343;
 }
 .list {
   width: 30rem;
@@ -64,28 +64,25 @@ body {
   gap: 0 0.2rem;
   color: #e2e8f0;
   font-size: 0.9rem;
-  background-color: #1d0ea3;
+  background-color: #2a3343;
   border-radius: 0.4rem;
   padding: 0.7rem 1rem;
   margin-right: 1rem;
-  box-shadow:
-    0 0.1rem 0.2rem #000,
-    0 0.1rem 0.5rem #000,
-    0 0.2rem 1.5rem #000;
+  box-shadow: 0 0.1rem 0.2rem #000, 0 0.1rem 0.5rem #000, 0 0.2rem 1.5rem #000;
 }
 .tag span {
   font-size: 1.2rem;
-  color: #1d0ea3;
+  color: #2a3343;
 }
 
 .fade {
   pointer-events: none;
   background: linear-gradient(
     90deg,
-    #1d0ea3,
+    #2a3343,
     transparent 30%,
     transparent 70%,
-    #1d0ea3
+    #2a3343
   );
 
   position: absolute;
