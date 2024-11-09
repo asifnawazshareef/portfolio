@@ -29,7 +29,7 @@ const SideBar = () => {
         <i class="fa-brands fa-github fa-xl  transform text-light transition-transform duration-300 ease-in-out hover:scale-125"></i>
       </a>
       <a
-        href="https://api.whatsapp.com/send?phone=923361114094"
+        href="https://api.whatsapp.com/send?phone=923040974004"
         target="_blank"
         data-toggle="tooltip"
         title="Whatsapp"
