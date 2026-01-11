@@ -28,7 +28,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://api.whatsapp.com/send?phone=923040974004">
+                  <a href="https://api.whatsapp.com/send?phone=923466295415">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
@@ -37,7 +37,7 @@ const Footer = () => {
             <div class="col-lg-4 col-md-12">
               <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
                 <p class="mb-0 text-center">
-                  Copyright © 2024 . All Rights Reserved. <br />
+                  Copyright © 2026 . All Rights Reserved. <br />
                   Designed by<a href="#"> Asif Nawaz</a>
                 </p>
               </div>

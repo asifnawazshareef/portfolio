@@ -68,7 +68,7 @@ const Projects = () => {
                     aria-controls="pills-websites"
                     aria-selected="true"
                   >
-                    Websites
+                    Custom Websites
                   </button>
                 </li>
               </ul>

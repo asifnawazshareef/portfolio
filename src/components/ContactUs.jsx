@@ -12,12 +12,12 @@ const ContactUs = () => {
               <div class="row call_details mb-4">
                 <label class="col-sm-3">Call us directly:</label>
                 <div class="col-sm-9 mb-3 mb-lg-2">
-                  <a href="tel:+92 304 0974004">+92 304 0974004</a>
+                  <a href="tel:+92 346 6295415">+92 346 6295415</a>
                 </div>
                 <label class="col-sm-3">Contact Email:</label>
                 <div class="col-sm-9 mb-3 mb-lg-2">
-                  <a href="mailto:asifnawazshareef@gmail.com">
-                    asifnawazshareef@gmail.com
+                  <a href="mailto:asifnawazsharif3@gmail.com">
+                    asifnawazsharif3@gmail.com
                   </a>
                 </div>
                 <label class="col-sm-3">Address:</label>

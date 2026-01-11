@@ -167,6 +167,7 @@ const AboutMe = () => {
                         <li>HTML / HTML5</li>
                         <li>CSS / CSS3</li>
                         <li>JavaScript</li>
+                        <li>Redux Toolkit</li>
                         <li>jQuery</li>
                         <li>AJAX</li>
                         <li>Bootstrap</li>
@@ -193,31 +194,25 @@ const AboutMe = () => {
                     <ul className="text-start ps-0">
                       <li>
                         <a href="#">
-                          React JS Internship
+                          Frontend Developer
+                          <span>- Hypertext Solutions , Islamabad</span>
+                        </a>
+                        April 2025 - Present
+                      </li>
+
+                      <li>
+                        <a href="#">
+                          Frontend Developer
                           <span>- Smart Coders (SMC) , Islamabad</span>
                         </a>
-                        Sep 2024 - Present
-                      </li>
-                      <li>
-                        <a href="#">
-                          Wordpress Frontend & Backend Developer
-                          <span>- Cybermind Solutions , Rawalpindi</span>
-                        </a>
-                        May 2024 - July 2024
-                      </li>
-                      <li>
-                        <a href="#">
-                          Front-End Developer
-                          <span>- Tecrux Global , Islamabad</span>
-                        </a>
-                        Sep 2023 - May 2024
+                        September 2023 - March 2025
                       </li>
 
                       <li>
                         <a href="#">
                           Wordpress Developer |Business Incubatee
                           <span>
-                            - Regional Plan9 , Punjab IT Board , PMAS ,
+                            - Regional Plan9 , Punjab IT Board , PMAS Arid Agriculture University ,
                             Rawalpindi
                           </span>
                         </a>

@@ -4,7 +4,7 @@ const SideBar = () => {
   return (
     <div className="d-flex flex-column align-items-end p-3 gap-3 text-light sidebar-social-links">
       <a
-        href="mailto:asifnawazshareef@gmail.com"
+        href="mailto:asifnawazsharif3@gmail.com"
         target="_blank"
         data-toggle="tooltip"
         title="Email"
@@ -29,7 +29,7 @@ const SideBar = () => {
         <i class="fa-brands fa-github fa-xl  transform text-light transition-transform duration-300 ease-in-out hover:scale-125"></i>
       </a>
       <a
-        href="https://api.whatsapp.com/send?phone=923040974004"
+        href="https://api.whatsapp.com/send?phone=923466295415"
         target="_blank"
         data-toggle="tooltip"
         title="Whatsapp"
