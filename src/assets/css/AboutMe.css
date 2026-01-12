@@ -1,0 +1,55 @@
+.about-description {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.about-wrapper .single-progress {
+  margin-top: 26px;
+  position: relative;
+  overflow: hidden;
+}
+.about-wrapper .single-progress .progress {
+  height: 4px;
+  border: 4px;
+  box-shadow: none;
+  background-color: var(--bg-white);
+  overflow: visible;
+}
+.about-wrapper .single-progress .progress-bar {
+  background: var(--gradient-color);
+}
+.about-wrapper .single-progress h6 {
+  text-align: left;
+}
+.about-wrapper .single-progress .lable {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--text-gray);
+}
+.about-wrapper .tab-pane li {
+  color: var(--gray-color);
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  list-style: none;
+}
+.about-wrapper .tab-pane li a {
+  font-weight: 500;
+  display: block;
+  color: var(--text-gray);
+}
+.about-wrapper .skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-wrapper .skills .skills-list {
+  column-count: 3;
+  column-gap: 40px;
+}
+.about-wrapper .skills li {
+  font-weight: 500;
+  display: block;
+  color: var(--text-gray);
+}

@@ -1,4 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
+import "../assets/css/Banner.css";
 const Banner = () => {
   return (
     <>

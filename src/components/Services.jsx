@@ -5,7 +5,7 @@ import WebDesign from "../assets/images/services/web-design.webp";
 import WebMaintenance from "../assets/images/services/web-maintenance.webp";
 import WordpressIcon from "../assets/images/services/wordpress-icon.webp";
 import Card from "./ServiceCards";
-
+import "../assets/css/Services.css";
 const Services = () => {
   const cardsData = [
     {

@@ -7,6 +7,7 @@ import TravelsIslamabad from "../../assets/images/projects/TravelsIslamabad.webp
 import Hoobank from "../../assets/images/projects/Hoobank.webp";
 import DiceGame from "../../assets/images/projects/DiceGame.webp";
 import RedirectLink from "../../assets/images/projects/RedirectLink.svg?react";
+import "../../assets/css/Projects.css";
 const Projects = () => {
   return (
     <>
@@ -54,7 +55,7 @@ const Projects = () => {
                     aria-controls="pills-landing-page"
                     aria-selected="true"
                   >
-                    React JS Websites
+                    React.js
                   </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -68,7 +69,7 @@ const Projects = () => {
                     aria-controls="pills-websites"
                     aria-selected="true"
                   >
-                    Custom Websites
+                    Websites
                   </button>
                 </li>
               </ul>

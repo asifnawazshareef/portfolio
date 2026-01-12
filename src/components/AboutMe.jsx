@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../assets/images/ProfileAsif.webp";
 import Nice from "./Nice";
+import "../assets/css/AboutMe.css";
 const AboutMe = () => {
   return (
     <>
