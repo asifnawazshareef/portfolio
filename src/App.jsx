@@ -12,11 +12,8 @@ const App = () => {
     <>
       <Header />
       <Banner />
-
       <AboutMe />
-
       <Services />
-
       <Projects />
       <ContactUs />
       <Footer />
