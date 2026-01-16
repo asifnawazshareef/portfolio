@@ -18,7 +18,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="container">
-          <div className="row justify-contact-between align-items-center">
+          <div className="row justify-contact-between">
             <div className="col-lg-5 mb-4 mb-lg-0 ">
               {/* <img
                 src={profile}

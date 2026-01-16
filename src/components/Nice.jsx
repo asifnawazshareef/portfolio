@@ -66,9 +66,9 @@ const Nice = () => {
               <div className={styles.tag}>
                 <span>#</span> webdev
               </div>
-              <div className={styles.tag}>
+              {/* <div className={styles.tag}>
                 <span>#</span> Gatsby
-              </div>
+              </div> */}
               <div className={styles.tag}>
                 <span>#</span> JavaScript
               </div>
@@ -82,9 +82,9 @@ const Nice = () => {
               <div className={styles.tag}>
                 <span>#</span> webdev
               </div>
-              <div className={styles.tag}>
+              {/* <div className={styles.tag}>
                 <span>#</span> Gatsby
-              </div>
+              </div> */}
               <div className={styles.tag}>
                 <span>#</span> JavaScript
               </div>
@@ -133,9 +133,9 @@ const Nice = () => {
           </div>
           <div className={styles.slider} style={myStyleFour}>
             <div className={styles.inner}>
-              <div className={styles.tag}>
+              {/* <div className={styles.tag}>
                 <span>#</span> Gatsby
-              </div>
+              </div> */}
               <div className={styles.tag}>
                 <span>#</span> HTML
               </div>
@@ -149,9 +149,9 @@ const Nice = () => {
                 <span>#</span> Next.js
               </div>
 
-              <div className={styles.tag}>
+              {/* <div className={styles.tag}>
                 <span>#</span> Gatsby
-              </div>
+              </div> */}
               <div className={styles.tag}>
                 <span>#</span> HTML
               </div>
@@ -180,9 +180,9 @@ const Nice = () => {
               <div className={styles.tag}>
                 <span>#</span> Typescript
               </div>
-              <div className={styles.tag}>
+              {/* <div className={styles.tag}>
                 <span>#</span> Gatsby
-              </div>
+              </div> */}
 
               <div className={styles.tag}>
                 <span>#</span> Next.js
@@ -196,9 +196,9 @@ const Nice = () => {
               <div className={styles.tag}>
                 <span>#</span> Typescript
               </div>
-              <div className={styles.tag}>
+              {/* <div className={styles.tag}>
                 <span>#</span> Gatsby
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={styles.fade}></div>

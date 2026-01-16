@@ -1,12 +1,32 @@
 .services-wrapper .card {
+  height: 100%;
   background-color: var(--bg-dark-blue);
-  cursor: pointer;
+  transition: all 0.3s ease;
 }
+
 .services-wrapper .card:hover {
-  box-shadow: 0px 2px 70px 0px rgb(253 71 102 / 5%);
   transform: translateY(-5px);
 }
-.services-wrapper .card img {
-  width: 80px;
-  height: 80px;
+
+/* LOGOS */
+.service-logos {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .service-logos {
+    justify-content: flex-start;
+  }
+}
+
+.service-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.service-logo.dark-mode-fix {
+  filter: brightness(0) invert(1);
 }

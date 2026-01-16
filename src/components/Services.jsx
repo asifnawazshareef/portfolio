@@ -1,68 +1,84 @@
-import WebDevelopment from "../assets/images/services/web-development.webp";
-import ResponsiveDesign from "../assets/images/services/responsive-design.webp";
-import SpeedOptimization from "../assets/images/services/speed-optimization.webp";
-import WebDesign from "../assets/images/services/web-design.webp";
-import WebMaintenance from "../assets/images/services/web-maintenance.webp";
-import WordpressIcon from "../assets/images/services/wordpress-icon.webp";
-import Card from "./ServiceCards";
+import ServiceCards from "./ServiceCards";
 import "../assets/css/Services.css";
+
 const Services = () => {
   const cardsData = [
     {
-      title: "Website Development",
+      title: "React.js Frontend Development",
       description:
-        "My portfolio features a variety of beautifully designed websites that transform ideas into interactive online experiences, delivering excellent results for global businesses.",
-      imageUrl: WebDevelopment,
+        "I build high-performance, scalable, and pixel-perfect user interfaces using React.js, modern hooks, reusable components, and responsive layouts based on real production experience.",
+      logos: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      ],
     },
     {
-      title: "WordPress Development",
+      title: "State Management (Redux Toolkit)",
       description:
-        "Dive into my portfolio of beautifully designed, highly functional WordPress websites, and witness how I empower businesses online with custom solutions.",
-      imageUrl: WordpressIcon,
+        "I manage complex application state using Redux Toolkit and RTK Query, ensuring predictable data flow, optimized API calls, and improved performance.",
+      logos: [
+        "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      ],
     },
     {
-      title: "Website Optimization",
+      title: "Next.js & TypeScript",
       description:
-        "I excel in optimizing websites for speed, cross-browser compatibility, and mobile responsiveness, driving user satisfaction, conversions, and SEO results.",
-      imageUrl: SpeedOptimization,
+        "I develop SEO-friendly, scalable applications using Next.js and TypeScript, leveraging SSR, clean architecture, and strong typing for maintainability.",
+      logos: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      ],
     },
     {
-      title: "Responsive Design",
+      title: "REST API Integration",
       description:
-        "Having a responsive layout means that my website fluidly resizes for optimal viewing regardless of the screen size or device (e.g., iPhone, iPad).",
-      imageUrl: ResponsiveDesign,
+        "I integrate RESTful APIs using Axios and Fetch API, handling authentication, protected routes, caching, and efficient server communication.",
+      logos: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      ],
+    },
+
+    {
+      title: "UI & Styling Systems",
+      description:
+        "I build consistent and reusable UI systems using Tailwind CSS, ShadCN UI, Material UI, Styled Components, and Bootstrap.",
+      logos: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      ],
     },
     {
-      title: "Website Design",
+      title: "Performance Optimization",
       description:
-        "My approach to website design is to create a website that strengthens your brand while ensuring ease of use and simplicity for your audience.",
-      imageUrl: WebDesign,
-    },
-    {
-      title: "Website Maintenance",
-      description:
-        "I ensure your website runs optimally with expert maintenance solutions. Trust Asif Nawaz for smooth website operation.",
-      imageUrl: WebMaintenance,
+        "I optimize applications using code splitting, lazy loading, memoization, and caching strategies to improve load times and user experience.",
+      logos: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      ],
     },
   ];
 
   return (
-    <section id="services" class="services-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center mb-4">
-            <span class="subtitle">What I can do for you</span>
+    <section id="services" className="services-wrapper">
+      <div className="container">
+        <div className="row">
+          {/* TEXT KEPT AS REQUESTED */}
+          <div className="col-sm-12 text-center mb-4">
+            <span className="subtitle">What I can do for you</span>
             <h2>My Awesome Service</h2>
             <p>Here are some of my expertise.</p>
           </div>
         </div>
-        <div class="row">
+
+        <div className="row align-items-stretch">
           {cardsData.map((card, index) => (
-            <Card
+            <ServiceCards
               key={index}
               title={card.title}
               description={card.description}
-              imageUrl={card.imageUrl}
+              logos={card.logos}
             />
           ))}
         </div>
